@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #434d5a;
+}
+
+input[type="range"] {
+  width: 800px;
+  margin: 120px auto;
+  color: aqua;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+}
