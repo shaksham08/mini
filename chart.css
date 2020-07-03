@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  background: url(https://images.pexels.com/photos/247676/pexels-photo-247676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 50px;
+  text-transform: uppercase;
+}
+
+#chart-humidity {
+  margin-bottom: 75px;
+}

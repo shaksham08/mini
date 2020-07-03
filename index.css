@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+body {
+  background: url(https://images.pexels.com/photos/157039/pexels-photo-157039.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+}
+
+.card {
+  border: none;
+  margin-bottom: 50px;
+  background: rgba(39, 174, 96, 0.6);
+}
+
+.danger {
+  background: rgba(255, 0, 0, 0.6);
+}
+
+.card-body {
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.card-text {
+  margin: 0px 10px;
+  font-size: 25px;
+}
+.card-title {
+  margin-left: 50%;
+  width: 100%;
+}
+
+.right {
+  margin-left: 450px;
+  margin-bottom: 50px;
+  border: none;
+  height: 75px;
+  width: 200px;
+  background-color: #f39c12;
+}
+
+.right:hover {
+  background-color: #2980b9;
+  color: white;
+}
+
+.btn {
+  background-color: #f39c12;
+  font-weight: 600;
+  color: white;
+}
+
+i {
+  width: 75px;
+  height: 75px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.btn {
+  width: 250px;
+  height: 45px;
+}
+
+.btn:hover {
+  color: white;
+  background-color: #2980b9;
+  border: none;
+}
+.row {
+  margin-top: 45px;
+}

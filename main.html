@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>COLD STORAGES</h1>
+      <a href="./index.html"><img class="pin" src="./marker.png" alt="" /></a>
+      <img class="pin" id="two" src="./marker.png" alt="" />
+      <img src="./Map-of-india-b.png" alt="" />
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      const config = {
+        apiKey: "AIzaSyCJcatdirgvtOWG2oCZbz4I7zai3XtZYFA",
+        authDomain: "fieldservices-173ea.firebaseapp.com",
+        databaseURL: "https://fieldservices-173ea.firebaseio.com",
+        projectId: "fieldservices-173ea",
+        storageBucket: "fieldservices-173ea.appspot.com",
+        messagingSenderId: "534164270264",
+        appId: "1:534164270264:web:8a632fa04b824137d1584d",
+        measurementId: "G-ZZ66B4H3GD",
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="login.js"></script>
+  </body>
+</html>

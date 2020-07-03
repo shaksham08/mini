@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #34495e;
+  color: white;
+  position: relative;
+}
+
+button {
+  margin-top: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  position: absolute;
+  margin-left: 320px;
+}
+
+.pin {
+  position: absolute;
+  margin-left: 500px;
+  top: 525px;
+  height: 25px;
+  width: 30px;
+  transition: all 0.5s;
+  z-index: 85;
+}
+
+#two {
+  position: absolute;
+  margin-left: 500px;
+  top: 300px;
+  height: 25px;
+  width: 30px;
+  z-index: 87;
+}
+
+.pin:hover {
+  transform: scale(1.5);
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="chart.css" />
+    <style>
+      /* body {
+        min-width: 310px;
+        max-width: 800px;
+        height: 400px;
+        margin: 0 auto;
+      } */
+      h2 {
+        font-family: Arial;
+        font-size: 2.5rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Slot 1</h1>
+    <div class="container">
+      <div id="chart-temperature" class="container"></div>
+      <hr />
+      <div id="chart-humidity" class="container"></div>
+      <div id="chart-pressure" class="container"></div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
